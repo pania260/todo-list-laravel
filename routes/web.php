@@ -12,6 +12,9 @@
 Route::get('/', function () {
     return redirect(url('/todo'));
 });
+Route::get('contact', function() {
+    return view('contact');
+});
 Route::get('/home', 'TodoController@home');
 Route::get('/login', 'TodoController@login');
 Route::get('admin/profile',function (){

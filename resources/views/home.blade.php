@@ -33,10 +33,6 @@
         font-size: 15px;
     }
 
-    p {
-
-    }
-
     p2 {
         font-size: 60px;
     }
@@ -131,7 +127,6 @@
     </div>
 </div>
     </div>
-</div>
 
 
 
@@ -273,6 +268,23 @@
 
 
                 <h3>_______________________________________________________________________________________________</h3>
+
+    <!-- END PAGE CONTENT -->
+<h1>Contact</h1><br>
+<p7>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p7>
+<p7 class="w3-text-blue-grey w3-large"><b>4th fatemi st,vali-e-asr st,tehran,Iran</b></p7>
+<p7>You can also contact us by phone 021-55360717 or email pandicorn1726@gmail.com, or you can send us your purchase order</p7>
+<div class="w3-bar w3-xlarge w3-pale-blue w3-opacity w3-hover-opacity-off" id="myNavbar  ">
+
+<form action="/action_page.php" target="_blank">
+    <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+    <p><input class="w3-input w3-padding-16" type="number" placeholder="How many people" required name="People"></p>
+    <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2017-11-16T20:00"></p>
+    <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+    <p><button class="w3-button w3-light-grey w3-section" type="submit">SEND MESSAGE</button></p>
+</form>
+</div>
+</div>
 <script>
     function myMap()
     {
@@ -289,23 +301,22 @@
         });
         marker.setMap(map);
     }
-    </script>
-    <footer class="w3-container w3-dark-grey" style="padding:32px">
-        <a href="#" class="w3-button w3-pink w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+</script>
+<footer class="w3-container w3-dark-grey" style="padding:32px">
+    <a href="#" class="w3-button w3-pink w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
 
-    </footer>
-    <!-- Footer -->
-    <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-        <i class="fa fa-facebook-official w3-hover-opacity"></i>
-        <i class="fa fa-instagram w3-hover-opacity"></i>
-        <i class="fa fa-snapchat w3-hover-opacity"></i>
-        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-        <i class="fa fa-twitter w3-hover-opacity"></i>
-        <i class="fa fa-linkedin w3-hover-opacity"></i>
+</footer>
+<!-- Footer -->
+<footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
 
-        <!-- End footer -->
-    </footer>
+    <!-- End footer -->
+</footer>
 
-    <!-- END PAGE CONTENT -->
 </body>
 </html>

@@ -13,7 +13,7 @@ class contact extends Controller
      * @var array
      */
     protected $fillable = [
-     ' idcontact' , 'name', 'subject', 'people','message',
+     ' idcontact' , 'name', 'people','date','message',
     ];
     /**
      * The attributes that should be hidden for arrays.

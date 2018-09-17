@@ -4,7 +4,7 @@ require('config.php');
 
 extract($_POST);
 
-$sql = "INSERT into contactus (name,email,message,created_date) VALUES('" . $name . "','" . $email . "','" . $message . "','" . date('Y-m-d') . "')";
+$sql = "INSERT into contact(name,people,date,message) VALUES('" . $name . "','" . $people . "','" . $date . "','" .  $message . "','" . date('Y-m-d') . "')";
 
 $success = $mysqli->query($sql);
 

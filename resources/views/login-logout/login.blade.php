@@ -27,9 +27,10 @@
                 <div class="form-group">
                     <div class="col-sm-push-2 col-sm-10">
                         <button type="submit" class="btn btn-primary">Login</button>
-                    </div>
+                </div>
                 </div>
             </form>
+
         </div>
     </div>
 </div>
